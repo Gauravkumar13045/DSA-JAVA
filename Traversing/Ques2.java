@@ -1,3 +1,5 @@
+// Find SUM of all elements
+
 package Traversing;
 
 public class Ques2 {

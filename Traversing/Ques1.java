@@ -1,3 +1,4 @@
+// Print all elements of an array
 package Traversing;
 
 public class Ques1 {

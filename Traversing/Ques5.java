@@ -1,3 +1,5 @@
+// Search an Element (Linear Search – Traversing BASE)
+
 package Traversing;
 
 public class Ques5 {
