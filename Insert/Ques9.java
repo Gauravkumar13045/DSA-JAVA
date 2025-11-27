@@ -12,9 +12,9 @@ public class Ques9 {
 
         for(int i = 0; i < arr.length; i++){
             newArr[i] = arr[i];
-            newArr[arr.length] = value;
 
         }
+            newArr[arr.length] = value;
                System.out.println("new Array : " + Arrays.toString(newArr));
 
     }
