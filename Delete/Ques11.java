@@ -11,9 +11,6 @@ public class Ques11 {
         for (int i = 0; i < arr.length-1; i++) {
             newArr[i] = arr[i+1];
 
-
-
-            
         }
 
         System.out.println("" + Arrays.toString(newArr));
