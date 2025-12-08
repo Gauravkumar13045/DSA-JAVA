@@ -18,9 +18,7 @@ public class Ques36 {
             arr[u + 1] = sort;
 
         }
-        System.out.println("Sorted Arrays: ");
-            System.out.println("Sorted Array (Ascending): " + Arrays.toString(arr));
-
+        System.out.println("Sorted Array (Ascending): " + Arrays.toString(arr));
 
     }
 }
