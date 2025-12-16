@@ -1,7 +1,6 @@
 // Insert element at end
 package Insert;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Ques9 {
