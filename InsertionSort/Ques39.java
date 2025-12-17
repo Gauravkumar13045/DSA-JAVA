@@ -8,18 +8,18 @@ public class Ques39 {
         int[] arr = { 1, 2, 3, 5, 6, 7 };
         int[] newArr = new int[arr.length + 1];
         int target = 4;
-        int i = 0, j=0;
+        int i = 0, j = 0;
 
-        while(i < arr.length && arr[i] < target){
+        while (i < arr.length && arr[i] < target) {
             newArr[j++] = arr[i++];
         }
 
         newArr[j++] = target;
-        while(i < arr.length){
+
+        while (i < arr.length) {
             newArr[j++] = arr[i++];
         }
 
-      
         System.out.println("Array after insertion: " + Arrays.toString(newArr));
 
     }
