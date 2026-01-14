@@ -19,7 +19,6 @@ public class Ques41 {
             quicksort(arr, low, pivot - 1);
             quicksort(arr, pivot + 1, high);
         }
-
     }
 
     public static int part(int[] arr, int low, int high) {
@@ -33,7 +32,6 @@ public class Ques41 {
                 arr[i] = arr[u];
                 arr[u] = temp;
             }
-
         }
 
         int temp = arr[i + 1];
@@ -43,5 +41,6 @@ public class Ques41 {
         return i + 1;
 
     }
-
 }
+
+
